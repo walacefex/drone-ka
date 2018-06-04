@@ -1,0 +1,148 @@
+/*código coloquei depois do bootstrap */
+.banner-topo{width:100%; height:auto;  background-size: contain; background-repeat: no-repeat;}
+.drones2 #banner_hathome{  height:475px; width: 1024px;   display: block; margin: 3px auto;} 
+.drones2{ height:475px; width: 100%;    display: block; margin: 3px auto;}
+.card-title{font-family: 'Open Sans';font-weight: bold;color: #4f4f4f ;font-size: 30px;text-align: center;}
+.droneprodutos:hover { opacity: 0.3; -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */   filter: grayscale(100%); }
+.droneprodutos:hover{ opacity: 1 !important; -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */filter: grayscale(0%);}
+span.sub-text {
+    font-size: 20px;
+}
+.cursor{cursor: pointer;}
+.bg-preto{
+	background-color: #000000;
+}
+.text-pequeno{
+	font-size:14px;
+	font-weight: bold;
+	line-height: 5px;
+}
+#estabilidade{
+	background-image: url('images/bg-estabilidade.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 590px;
+}
+
+#voo{
+	background-image: url('images/bg-autonomo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+
+.titulo-preto{color: #111;
+    font-weight: 100;
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+.text-branco{
+	color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Open Sans', sans-serif
+}
+
+
+#bateria{
+	background-image: url('images/bg-bateria.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 460px;
+}
+
+#gesto{
+	background-image: url('images/bg-gestos.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 525px;
+}
+
+
+@media(max-width: 1199px){
+	#bateria{
+		display:none;
+	}
+}
+/* Se usado copiar para o CSS do gerenciador*/
+	/*{ border:1px solid red;}*/
+	
+/* #hotsite{  text-align:center; width:100%; min-width: 990px; max-width: 2000px; }
+#hotsite table, #hotsite td{vertical-align:text-top; text-align:center; }
+#hotsite .h_body{ width:100%; min-width: 990px; max-width: 2000px; margin:0 auto; vertical-align:top; text-align:center; }
+#hotsite .h_top	{  height:auto; border: 0px solid red; vertical-align:top; text-align:center;}
+#hotsite .h_top	.drones1{  background: #fff url(https://www.kalunga.com.br/Hotsite/images/drones/drones_01.jpg) top center repeat-x;  height:290px; border: 0px solid red; vertical-align:top; text-align:center;}
+
+
+#hotsite .h_top	.drones3{  background: #fff url(https://www.kalunga.com.br/Hotsite/images/drones/drones_03.jpg) top center repeat-x;  height:850px; border: 0px solid red; vertical-align:top; text-align:center;}
+
+#hotsite .h_top	.drones5{  background: #0e0e0e url(https://www.kalunga.com.br/Hotsite/images/drones/drones_05.jpg) top center repeat-x;  height:750px; border: 0px solid red; vertical-align:top; text-align:center;}
+#hotsite .h_top	.drones6{  background: #fff url(https://www.kalunga.com.br/Hotsite/images/drones/drones_06.jpg) top center repeat-x;  height:450px; border: 0px solid red; vertical-align:top; text-align:center;}
+#hotsite .h_top	.drones7{  background: #fff url(https://www.kalunga.com.br/Hotsite/images/drones/drones_07.jpg) top center no-repeat;  height:590px; border: 0px solid red; vertical-align:top; text-align:center;}
+#hotsite .h_top	.drones8{  background: #fff url(https://www.kalunga.com.br/Hotsite/images/drones/drones_08.jpg) top center no-repeat;  height:364px; border: 0px solid red; vertical-align:top; text-align:center;}
+#hotsite .h_top	.drones9{  background: #fff url(https://www.kalunga.com.br/Hotsite/images/drones/drones_09.jpg) top center no-repeat;  height:530px; border: 0px solid red; vertical-align:top; text-align:center;}
+#hotsite .h_top	.drones10{  background: #fff url(https://www.kalunga.com.br/Hotsite/images/drones/drones_10.jpg) top center no-repeat;  height:590px; border: 0px solid red; vertical-align:top; text-align:center;}
+#hotsite .h_top	.drones11{  background: #fff url(https://www.kalunga.com.br/Hotsite/images/drones/drones_11.jpg) top center no-repeat;  height:570px; border: 0px solid red; vertical-align:top; text-align:center;}
+#hotsite .h_top	.drones12{ width: 100%; min-width:990px; display: block; margin:0 auto;  background: #fff url(https://www.kalunga.com.br/Hotsite/images/drones/drones_12.jpg) top center no-repeat;  height:190px; border: 0px solid red; vertical-align:top; text-align:center;}
+
+
+#hotsite .h_top .dronemenu{ width: 900px; height: 50px; display: block; margin: 15px auto;}
+#hotsite .h_top .dronemenu li{ float: left; height: 50px; width: 120px; font-weight: bold; font-size: 16px; }
+#hotsite .h_top .dronemenu li a{ width: 90px; height: 22px; padding: 15px 15px; display: block; transition:0.2s; text-align: center; background: #fff; font-size: 16px; }
+#hotsite .h_top .dronemenu li a:hover{ background: #f6f6f6; color: red }
+
+#hotsite .h_top .droneprodutos{ width: 900px; height: 400px; display: block; margin: 0 auto; padding-top:100px;}
+#hotsite .h_top .droneprodutos li{ float: left; height: 370px; width: 300px; font-weight: bold; font-size: 16px; opacity: 1;  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */ /* filter: grayscale(0%);  transition:0.2s;}*/
+/* #hotsite .h_top .droneprodutos li a{ width: 100%; height: 100%; display: block; text-align: center;  text-indent: -99999px; }
+#hotsite .h_top .droneprodutos:hover li { opacity: 0.3; -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */   /*filter: grayscale(100%); }*/
+/* #hotsite .h_top .droneprodutos li:hover{ opacity: 1 !important;     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */ /* filter: grayscale(0%);} */
+
+
+/* #hotsite .h_top .droneprodutos .p4advanced{ background: #fff url(https://www.kalunga.com.br/Hotsite/images/drones/phantom4advanced.jpg) top center no-repeat; }
+#hotsite .h_top .droneprodutos .p4pro{ background: #fff url(https://www.kalunga.com.br/Hotsite/images/drones/phantom4pro.jpg) top center no-repeat; }
+#hotsite .h_top .droneprodutos .p4proplus{ background: #fff url(https://www.kalunga.com.br/Hotsite/images/drones/phantom4protela.jpg) top center no-repeat; }
+#hotsite .h_top .droneprodutos .spark{ background: #fff url(https://www.kalunga.com.br/Hotsite/images/drones/spark.jpg) top center no-repeat; }
+#hotsite .h_top .droneprodutos .mavic{ background: #fff url(https://www.kalunga.com.br/Hotsite/images/drones/mavic.jpg) top center no-repeat; }
+
+
+
+
+#hotsite .h_left {}
+#hotsite .h_right {}
+#hotsite .h_footer {height:20px;}
+#hotsite #center{ margin:0 auto; text-align:center;  margin:5px 0 0 0px; }
+.produto_grande {list-style: none; float: left; background: #fff; border-radius: 10px;}
+
+
+
+#hotsite .h_top	.drones2{ background-color: #eaeaea; height:475px; width: 100%;    display: block; margin: 3px auto;}
+#hotsite .h_top	.drones2 #banner_hathome{  height:475px; width: 1024px;   display: block; margin: 3px auto;} */
+
+
+
+/*.videosdrone { width: 600px; height: 150px; margin: 570px -280px; position: absolute; left: 50%;}
+.videosdrone li{float: left; width: 25%; height: 150px;}
+.videosdrone  li a{ width: 100%; height: 100%; display: block; text-indent: -99999px; opacity: 0.5; transition: 0.2s; cursor: pointer;}
+.videosdrone  li a:hover{  opacity: 1;}
+
+.videosdrone .v1{background: url(https://www.kalunga.com.br/Hotsite/images/drones/v1.png) top center no-repeat;}
+.videosdrone .v2{background: url(https://www.kalunga.com.br/Hotsite/images/drones/v2.png) top center no-repeat;}
+.videosdrone .v3{background: url(https://www.kalunga.com.br/Hotsite/images/drones/v3.png) top center no-repeat;}
+.videosdrone .v4{background: url(https://www.kalunga.com.br/Hotsite/images/drones/v4.png) top center no-repeat;}
+
+#main-category{display: none;} */
+
+
+/* Se usado copiar para o CSS do gerenciador*/
+
+
+
+
+
+
